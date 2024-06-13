@@ -1,0 +1,33 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Python bytecode cache
+__pycache__/
+
+# Ignore specific Python files that generate bytecode
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore other typical Python directories/files
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+*.bak
+*.swp
+*.swo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
